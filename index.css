@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * ::-webkit-scrollbar {
+    display: none; }
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #42B0CE; }
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+  .container__painel {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    z-index: 1; }
+  .container span {
+    position: absolute;
+    background: url("./assets/borboleta.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    pointer-events: none;
+    z-index: 1;
+    animation: movie-butterfly 4s ease infinite; }
+  .container__cloud-1 {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100% 100% 0 100%;
+    background: white;
+    opacity: .8; }
+    .container__cloud-1:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 54px;
+      width: 40px;
+      height: 40px;
+      border-radius: 100% 100% 0 0;
+      background: white; }
+    .container__cloud-1:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 90px;
+      width: 30px;
+      height: 30px;
+      border-radius: 100% 100% 100% 0;
+      background: white; }
+  .container__cloud-2 {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100% 100% 0 100%;
+    background: white;
+    opacity: .6; }
+    .container__cloud-2:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 84px;
+      width: 56px;
+      height: 56px;
+      border-radius: 100% 100% 0 0;
+      background: white; }
+    .container__cloud-2:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 138px;
+      width: 40px;
+      height: 40px;
+      border-radius: 100% 100% 100% 0;
+      background: white; }
+  .container__cloud-3 {
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100% 100% 0 100%;
+    background: white;
+    opacity: .8; }
+    .container__cloud-3:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 54px;
+      width: 40px;
+      height: 40px;
+      border-radius: 100% 100% 0 0;
+      background: white; }
+    .container__cloud-3:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 90px;
+      width: 30px;
+      height: 30px;
+      border-radius: 100% 100% 100% 0;
+      background: white; }
+@keyframes movie-butterfly {
+  0% {
+    transform: translate(-50%, -70%);
+    opacity: 1; }
+  100% {
+    transform: translate(-10%, -1000%);
+    opacity: 0; } }
+
+/*# sourceMappingURL=index.css.map */
