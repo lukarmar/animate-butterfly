@@ -8,10 +8,10 @@ document.addEventListener("mousemove", (e)=> {
   butterfly.style.left = `${x}px`;
   butterfly.style.top = `${y}px`;
 
-  var size = Math.random() * 70;
+  var size = Math.random() * 50;
   
-  butterfly.style.width = `${20+size}px`
-  butterfly.style.height = `${20+size}px`
+  butterfly.style.width = `${30+size}px`
+  butterfly.style.height = `${30+size}px`
 
   container.appendChild(butterfly)
 
